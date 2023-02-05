@@ -99,6 +99,7 @@ body{
 }
 
 .experience .proyecto{
+    display: block;
     background-color: white;
     border: 2px solid black;
     border-radius: 10px;
@@ -112,9 +113,6 @@ body{
 
 .experience .datos{
     margin: 1em 0 0;
-}
-
-.experience .dato{
 }
 
 .experience .sublista{
@@ -177,10 +175,6 @@ body{
     color: white;
 }
 
-.personal2 .obj-parrafo{
-    
-}
-
 .skills{
     min-height: 10em;
     margin: 1em 1em 1em;
@@ -208,6 +202,8 @@ body{
     height: 4.5em;
     color: black;
     background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     opacity: 100%;
     margin: 1em 2em 0;
     text-align: center;
@@ -297,4 +293,93 @@ body{
 
 .contac .contacto{
     margin: 0 1.5em 0;
+}
+
+
+@media(min-width: 768px){
+    .carrusel .punto{
+        width: 1.3em;
+        height: 1.3em;
+    }
+
+    .carrusel .img{
+        max-height: 43vh;
+    }
+
+    .navbar .elemento{
+        font-size: 1.4em;
+    }
+
+    .experience .titulo-e{
+        font-size: 2.5em;
+    }
+
+    .experience .titulo-proyecto{
+        font-size: 2em;
+    }
+
+    .experience .dato{
+        font-size: 1.2em;
+    }
+
+    .about .titulo-a{
+        font-size: 2.5em;
+    }
+
+    .about .fotoPerfil{
+        width: 80px;
+    }
+
+    .about .fabro{
+        font-size: 1.2em;
+    }
+
+    .skills .titulo-s{
+        font-size: 2.5em;
+    }
+
+    .contac .titulo-c{
+        font-size: 2.5em;
+    }
+
+    .personal2 .obj-titulo{
+        font-size: 1.5em;
+    }
+    
+    .personal2 .obj-parrafo{
+        font-size: 1.2em;
+    }
+
+    .skills .barra{
+        height: 9em;
+    }
+    
+    .skills .pata{
+        font-size: 1.3em;
+        margin: 0 1.6em 0;
+    }
+
+    .contac .parrafito{
+        font-size: 1.2em;
+    }
+    .contac .tituloF{
+        font-size: 2em;
+    }
+    
+    .contac .formulario{
+        padding: 0 12em 1em;
+    }
+
+    #enviar{
+        font-size: 1em;
+    }
+
+    .contac .redes{
+        
+    }
+    
+    .contac .contacto{
+        font-size: 1.2em;
+        margin: 0 1.7em 0;
+    }
 }
