@@ -197,3 +197,75 @@ body{
 .skills .pata{
     margin: 0 .4em 0;
 }
+
+.contac{
+    margin: 1em;
+    padding: .5em 1em 1em;
+    background-color: darkseagreen;
+}
+
+.contac .titulo-c{
+
+}
+
+.contac .parrafito{
+    padding: 1em;
+}
+
+.contac .cuadro{
+    background-color: firebrick;
+}
+
+.contac .tituloF{
+    text-align: center;
+    padding: 1em;
+}
+
+.contac .formulario{
+    padding: 0 1em 1em;
+}
+
+.contac .caja{
+    display: block;
+    height: 25px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 2px;
+}
+
+#mensaje{
+    height: 50px;
+    margin: -15% 0 0;
+    float: right;
+}
+
+.contac .boton{
+    margin-top: 1em;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#enviar{
+    width: 7em;
+    height: 3em;
+}
+
+.contac .redes{
+    margin: 1em 1em 0;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contac .contactos{
+
+}
+
+.contac .contacto{
+    margin: 0 1.5em 0;
+}
