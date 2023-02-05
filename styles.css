@@ -56,3 +56,24 @@ body{
     background-color: orange;
     opacity: 99%;
 }
+
+.navbar{
+    width: 100%;
+    height: 30px;
+    background-color: aqua;
+}
+
+.navbar .info{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:center;
+    align-items: center;
+}
+
+.navbar .elemento{
+    font-size: 1.1em;
+    margin: 0 1em 0;
+}
