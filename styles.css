@@ -28,7 +28,6 @@ body{
     width: calc(100%/3);
     background-color: purple;
     height: 160px;
-    object-fit: cover;
     min-height: 10vh;
 }
 
@@ -76,4 +75,46 @@ body{
 .navbar .elemento{
     font-size: 1.1em;
     margin: 0 1em 0;
+}
+
+.experience{
+    margin: 1em 1em 1em;
+    padding: .5em 1em 1em;
+    background-color: yellowgreen;
+}
+
+.experience .titulo-e{
+}
+
+.experience .proyecto{
+    background-color: blue;
+    margin: 1em .5em 0;
+    padding: 1em;
+}
+
+.experience .titulo-proyecto{
+    text-align: center;
+}
+
+.experience .datos{
+    margin: 1em 0 0;
+}
+
+.experience .dato{
+}
+
+.experience .sublista{
+    margin: .1em 2.5em 0;
+}
+
+.experience .photo{
+    width: 50%;
+    height: 170px;
+    float: right;
+    object-fit:scale-down;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:center;
+    align-items: center;
 }
