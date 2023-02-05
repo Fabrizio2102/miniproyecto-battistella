@@ -118,3 +118,44 @@ body{
     justify-content:center;
     align-items: center;
 }
+
+.about{
+    margin: 1em 1em 1em;
+    padding: .5em 1em 1em;
+    background-color: pink;
+}
+
+.about .titulo-a{
+
+}
+
+.about .personal1{
+    margin: 1em .5em 0;
+    padding: 1em;
+    background-color: orange;
+}
+
+.about .fotoPerfil{
+    width: 70px;
+    float: left;
+}
+
+.about .fabros{
+}
+
+.about .fabro{
+    padding: 1em;
+}
+
+.personal2{
+    padding: .5em;
+}
+
+.personal2 .obj-titulo{
+    text-align: center;
+    padding: .5em;
+}
+
+.personal2 .obj-parrafo{
+    
+}
