@@ -159,3 +159,41 @@ body{
 .personal2 .obj-parrafo{
     
 }
+
+.skills{
+    min-height: 10em;
+    margin: 1em 1em 1em;
+    padding: .5em 1em 1em;
+    background-color: bisque;
+}
+
+.skills .titulo-s{
+
+}
+
+.skills .barras{
+    width: 100%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .barra{
+    width: 100%;
+    height: 4.5em;
+    color: black;
+    background-color: white;
+    opacity: 100%;
+    margin: 1em 2em 0;
+    text-align: center;
+}
+
+.skills .patas{
+    
+}
+
+.skills .pata{
+    margin: 0 .4em 0;
+}

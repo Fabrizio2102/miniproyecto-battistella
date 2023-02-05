@@ -1,5 +1,13 @@
 const grande = document.querySelector(".grande")
 const punto = document.querySelectorAll(".punto")
+const barra = document.querySelectorAll(".barra")
+
+const habilidades = {
+    programacion: 88,
+    velocidad: 21,
+    experiencia: 50,
+    ultimahora: 100
+}
 
 punto.forEach((cadaPunto, i)=> {
 
